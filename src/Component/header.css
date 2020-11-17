@@ -1,0 +1,84 @@
+#root .App .header-page-login{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    align-items: center;
+    margin: 5%;
+    justify-content: space-between;
+}
+.back-arrow{
+    font-size: 20px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.back-arrow p{
+    padding:8px;
+    margin: 0;
+}
+.login-box {
+    border: 1px solid #444;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 100;
+    width: 100px;
+    text-align: center;
+}
+.container form{
+    position: relative;
+    left: 30%;
+    width: 50%;
+}
+.container .form-group{
+    border: 1px solid #f5f3f3;
+    border-radius: 8px;
+    padding: 8px;
+}
+.container .form-group label{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.container .form-group .form-control{
+    border:none;
+}
+.btn-primary-submit{
+    width: 100%;
+    height: 50px;
+    background-color: #2fa94b;
+    border: 1px solid #f5f3f3;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 100;
+    color: #fff;
+}
+.check-signin{
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 100;
+    margin-left:35%;
+    color: #888;
+}
+.form-check-input {
+    position: absolute;
+    margin-top: .5rem;
+    margin-left: -1.25rem;
+}
+.forgot-content{
+    margin-top: -20px;
+}
+.forgot-content a{
+    font-size: 18px;
+    color: #444;
+    text-decoration: underline;
+    margin: 50px 0;
+    display: flex;
+    padding: 0 10%;
+    font-weight: 500;
+}
+.forgot-content a.forgot-name{
+    float: left;
+}
+.forgot-content a.forgot-pwd{
+   float: right;
+}

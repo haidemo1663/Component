@@ -1,14 +1,13 @@
 import React,{Component} from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
-const todos=['Di Cho', 'Nau Com', 'Quet Nha'];
+import HeaderPage from './Component/headerPage';
+import LoginForm from './Component/loginForm';
 class App extends Component {
   render(){
     return (
       <div className="App">
-        <ul>
-          {todos.map((x,index)=><li key={index}>{x}</li>)}
-        </ul>
+        <HeaderPage></HeaderPage>
+        <LoginForm/>
       </div>
     );
   }
